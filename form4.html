@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM4</title>
+
+    <link rel="stylesheet" href="form4.css">
+    
+</head>
+<body>
+    
+ <video autoplay muted loop id="bg-video">
+        <source src="ship.mp4" type="video/mp4">
+    </video>
+
+        <div class="wrapper">
+            <div class="center1">
+            <div class="center2">
+    <form id="userForm" >
+       <fieldset>
+            <legend style="text-align: center;"><h3>Registraion Form</h3></legend>
+
+            <label for="fname">Name  :</label>
+            <input type="text" id="fname" name="Name" value="" placeholder="Enter name" autofocus required="required"><br><br>
+
+            <label for="em">Email</label>
+            <input type="email" id="em" name="Email" value="" required="required"><br><br>
+
+            <label for="pw">Password:</label>
+            <input type="password" id="pw" name="Password" value="" required="required"><br><br>
+
+            <label for="gd">Gender:</label>
+            <input type="radio" name="Gender">Male<input type="radio" name="Gender">Female<br><br>
+
+            <label for="item">Item   :</label>
+            <input type="text" id="item" name="Item" value="" placeholder="Item" autofocus required="required"><br><br>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="Quantity" value="" placeholder="Quantity" autofocus required="required"><br><br>
+
+<p>Select Action</p>
+ <label for="Export">Export</label>
+ <input type="checkbox" id="Export" name="chk1" value="Export">
+
+ <label for="Import">Import</label>
+ <input type="checkbox" id="Import" name="chk2" value="Import">
+
+ <label for="Delivery">Delivery</label>
+ <input type="checkbox" id="Delivery" name="chk3" value="Delivery"><br><br>
+
+ <label for="description" class="mydesc" required="required">Comment:</label>
+ <textarea cols="25" rows="6" maxlength="200" id="description">Comment about our services</textarea><br><br>
+
+ <label for="country">Select your Area</label>
+ <select id="country">
+    <option value="Jeddah">Jeddah</option>
+    <option value="Madinah">Madinah</option>
+    <option value="Makkah">Makkah</option>
+    <option value="Riyadhbr">Riyadhbr</option>
+    <option value="Dammam">Dammam</option>
+    <option value="Khamis">Khamis</option>
+    <option value="Mpererwe">Mpererwe</option>
+  
+ </select><br><br>
+
+<input type="submit" name="submit" value="submit">
+        </fieldset>
+    </form>
+</div>
+</div>
+</div>
+    
+<br>
+
+</html>

@@ -1,0 +1,75 @@
+fieldset{
+    
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+legend{
+    font-weight: bold;
+    padding: 0 10px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+button[type="submit"]:hover{
+    color: rgb(48, 84, 227);
+    background-color:transparent;
+    size: 350px;
+}
+body{
+    margin: 0;
+    height: 90vh;
+    
+}
+
+
+#container{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 0, 11);
+    max-width: 400px;
+    margin: 20 auto;
+    background-color: #426cd796;
+    padding: 20px;
+    border-radius: 5px;
+}
+form{
+
+    color: #03060af6;
+}
+#username.hover{
+    color: #68e94e21;
+  padding: 8px;
+}
+#password.hover{
+    color: #68e94e21;
+    size: 20;
+    padding: 8px;
+}
+#bg-video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+input[type="text"],input[type="password"]{
+    background-color: rgba(130, 50, 228, 0.374);
+    width: 80%;
+    padding: 8px 10px;
+    height: 35px;
+    font-size: 16px;
+    border: 1px solid #0a0a0a;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+/*.btn-signup{
+    background-color: transparent;
+    color: #004a99;
+    cursor: pointer;
+    padding: 10px;
+}
